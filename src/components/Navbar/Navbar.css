@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #f33f3f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.0rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+}
+
+.navbar__links__list {
+  display: flex;
+  list-style: none;
+}
+
+.items {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.items_logo {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  padding: 0 0.2rem;
+}

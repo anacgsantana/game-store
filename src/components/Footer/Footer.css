@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f33f3f;
+  padding: 3rem 0;
+  color: #fff;
+}
+
+.social {
+  font-size: 3.5em;
+}
+
+.items {
+  text-decoration: none;
+  justify-content:space-between;
+  color: #ffffff;
+  padding: 0.5rem;
+  font-size: 2.0em;
+  display: flex;
+  align-items: center;
+}
