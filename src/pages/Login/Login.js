@@ -15,7 +15,7 @@ export default function Login() {
       password: password
     }
 
-    axios.post('/auth/login', login)
+    axios.post('https://nintendo-shop.herokuapp.com/auth/login', login)
     .then(response => {
       const token = response.data.token;
       localStorage.setItem('token', token)

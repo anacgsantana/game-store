@@ -30,7 +30,7 @@ export default function Profile(props) {
   return (
     <div className='profile'>
       <div className='profile-img'>
-        <img src='https://yt3.ggpht.com/ytc/AKedOLTNDWSxPjRimdb7dmPRXSDnciDL3J1Z2CqkqCSU=s900-c-k-c0x00ffffff-no-rj' alt='Mario' />
+        <img src='https://www.reicobraadesivos.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/a/r/ar-89.jpg' alt='Mario' />
       </div>
       {
         !notLogged ? (

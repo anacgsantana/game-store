@@ -19,7 +19,7 @@ export default function WishList() {
         headers: { Authorization: `Bearer ${token}`}
       }
 
-      axios.get('/game/myWishList', config)
+      axios.get('https://nintendo-shop.herokuapp.com/game/wish/ID', config)
       .then(response => {
         setNotLoggend(false)
         setWishList(response.data.games)

@@ -52,7 +52,7 @@ export default function Register() {
           </div>
           
           <div className='register-btn'>
-            <input type='submit' value='Continuar'  href='http://localhost:3000' />
+            <input type='submit' value='Continuar' />
           </div>
         </form>
       </div>

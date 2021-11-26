@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import { FaHeart, FaCartArrowDown, FaGrinWink } from "react-icons/fa";
+import { FaHeart, FaGrinBeam, FaGrinWink } from "react-icons/fa";
 
 export default function Navbar() {
   return (
@@ -9,13 +9,13 @@ export default function Navbar() {
       <div className="navbar__links">
         <ul className="navbar__links__list">
           <li>
-            <a className="items" href="#">
-              <FaCartArrowDown />
-              <span className="text">CheckOut</span>
+            <a className="items" href='/profile'>
+              <FaGrinBeam />
+              <span className="text">Perfil</span>
             </a>
           </li>
           <li>
-            <a className="items" href='/wishlist'>
+            <a className="items" href='https://nintendo-shop.herokuapp.com/game/wish/ID'>
               <FaHeart />
               <a className="text">Lista de Desejos</a>
             </a>
