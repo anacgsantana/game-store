@@ -1,5 +1,5 @@
 import './Card.css';
-import { FaRegHeart } from 'react-icons/fa';
+import { FaHeart } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
@@ -33,7 +33,7 @@ export default function Card(props) {
       </div>
 
       <button className='wishlist' onClick={wishGame}>
-        <FaRegHeart />
+        <FaHeart />
       </button>
     </div>
   )

@@ -28,7 +28,7 @@ export default function Register() {
   return(
     <div className='register'>
       <div className='register-container'>
-        <h2>Criar uma conta Nintendo</h2>
+        <h2>Criar Conta</h2>
 
         <form className='register-form' onSubmit={handleSubmit}>
           <label>Nome</label>
@@ -52,7 +52,7 @@ export default function Register() {
           </div>
           
           <div className='register-btn'>
-            <input type='submit' value='Continuar' />
+            <input type='submit' value='Continuar'  href='http://localhost:3000' />
           </div>
         </form>
       </div>

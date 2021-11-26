@@ -56,7 +56,7 @@
   justify-content: center;
 }
 
-.register-btn input {
+.button input {
   background-color: #B1B1B1;
   color: #fff;
   border: none;
@@ -65,6 +65,6 @@
   cursor: pointer;
 }
 
-.register-btn input:hover {
+.button input:hover {
   background-color: #b1b1b173;
 }
